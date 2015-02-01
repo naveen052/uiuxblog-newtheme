@@ -4,7 +4,7 @@
 		<!-- section -->
 		<section>
 
-			<strong class="loop-title"><?php _e( 'Categories for ', 'html5blank' ); single_cat_title(); ?></strong>
+			<strong class="loop-title"><?php _e( 'Showing Posts for  "', 'html5blank' ); single_cat_title(); ?>"</strong>
 
 			<?php get_template_part('loop'); ?>
 
