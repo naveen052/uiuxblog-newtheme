@@ -21,17 +21,15 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-
-		<!-- wrapper -->
-		<div class="wrapper">
-
+		
+		<div class="col-lg-5">
 			<!-- header -->
 			<header class="header clear" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
-						    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+						   Something
 						</a>
 					</div>
 					<!-- /logo -->
@@ -44,3 +42,4 @@
 
 			</header>
 			<!-- /header -->
+		</div>
