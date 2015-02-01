@@ -23,11 +23,11 @@
 	</head>
 	<body <?php body_class(); ?>>
 		
-		<div class="col-lg-5">
+		<div class="col-lg-5  col-md-5 col-sm-5">
 			<!-- header -->
 			<header class="header" role="banner">
 				
-				<div class="header-content">
+				<div class="header-content" style="padding:5% 10%">
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
@@ -70,8 +70,12 @@
 						</nav>
 					</div>
 					<!-- /nav -->
-				</div>
+					<div class="side-sidebar">
+						<?php get_sidebar(); ?>
+						<?php get_footer(); ?>
 
+					</div>
+				</div>
 			</header>
 			<!-- /header -->
 		</div>

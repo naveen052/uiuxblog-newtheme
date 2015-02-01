@@ -1742,7 +1742,7 @@ output {
   padding: 6px 16px;
   font-size: 13px;
   line-height: 1.846;
-  color: #666666;
+  color: #fff;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -1760,14 +1760,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #bbbbbb;
+  color: #fff;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #fff;
 }
 .form-control::-webkit-input-placeholder {
-  color: #bbbbbb;
+  color: #fff;
 }
 .form-control[disabled],
 .form-control[readonly],
