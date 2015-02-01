@@ -7,10 +7,14 @@
 				<strong class="loop-title"><?php _e( 'Latest Posts', 'html5blank' ); ?></strong>
 
 				<?php get_template_part('loop'); ?>
-
-				<?php get_template_part('pagination'); ?>
-
+				<div style="padding:10px;">
+					<?php get_template_part('pagination'); ?>
+				</div>
+				<div style="margin-top:20px; padding:10px;">
+					<?php get_footer(); ?>
+				</div>
 			</section>
 			<!-- /section -->
 		</main>
 </div>
+<?php include_once( 'footer_scripts.php' );?>

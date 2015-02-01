@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="col-lg-7">
+<div class="col-lg-7  col-md-7 col-sm-7">
 	<main role="main">
 		<!-- section -->
 		<section>
@@ -7,10 +7,10 @@
 			<!-- article -->
 			<article id="post-404">
 
-				<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
-				<h2>
+				<strong class="loop-title"><?php _e( 'Page not found', 'html5blank' ); ?></strong>
+				<strong class="loop-title">
 					<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'html5blank' ); ?></a>
-				</h2>
+				</strong>
 
 			</article>
 			<!-- /article -->

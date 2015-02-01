@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
-		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
+		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' |'; } ?> <?php bloginfo('name'); ?></title>
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -11,17 +11,8 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 		<?php wp_head(); ?>
-		<script>
-        // conditionizr.com
-        // configure environment tests
-        conditionizr.config({
-            assets: '<?php echo get_template_directory_uri(); ?>',
-            tests: {}
-        });
-        </script>
-
 	</head>
-	<body <?php body_class(); ?>>
+	<body>
 		
 		<div class="col-lg-5  col-md-5 col-sm-5">
 			<!-- header -->
@@ -72,8 +63,6 @@
 					<!-- /nav -->
 					<div class="side-sidebar">
 						<?php get_sidebar(); ?>
-						<?php get_footer(); ?>
-
 					</div>
 				</div>
 			</header>

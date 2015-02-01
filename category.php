@@ -1,10 +1,10 @@
 <?php get_header(); ?>
-<div class="col-lg-7">
+<div class="col-lg-7 col-sm-7 col-md-7">
 	<main role="main">
 		<!-- section -->
 		<section>
 
-			<h1><?php _e( 'Categories for ', 'html5blank' ); single_cat_title(); ?></h1>
+			<strong class="loop-title"><?php _e( 'Categories for ', 'html5blank' ); single_cat_title(); ?></strong>
 
 			<?php get_template_part('loop'); ?>
 

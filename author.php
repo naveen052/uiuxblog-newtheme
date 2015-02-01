@@ -1,18 +1,18 @@
 <?php get_header(); ?>
-<div class="col-lg-7">
+<div class="col-lg-7  col-md-7 col-sm-7">
 	<main role="main">
 		<!-- section -->
 		<section>
 
 		<?php if (have_posts()): the_post(); ?>
 
-			<h1><?php _e( 'Author Archives for ', 'html5blank' ); echo get_the_author(); ?></h1>
+			<strong class="loop-title"><?php _e( 'Author Archives for ', 'html5blank' ); echo get_the_author(); ?></strong>
 
 		<?php if ( get_the_author_meta('description')) : ?>
 
 		<?php echo get_avatar(get_the_author_meta('user_email')); ?>
 
-			<h2><?php _e( 'About ', 'html5blank' ); echo get_the_author() ; ?></h2>
+			<strong class="loop-title"><?php _e( 'About ', 'html5blank' ); echo get_the_author() ; ?></strong>
 
 			<?php echo wpautop( get_the_author_meta('description') ); ?>
 
