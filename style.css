@@ -325,14 +325,72 @@ margin on the iframe, cause it breaks stuff. */
 	height: 100%;
 	overflow: hidden;
 	-webkit-overflow-scrolling: touch;
-	width: 41%;
+	width: 41.66666667%;
+}
+header a {
+	color: #fff;
+}
+header p {
+	margin: 10px 0px;
+}
+.header-content {
+	padding:2% ;
+	color: #fff;
+}
+.navigation {
+	max-width: 500px;
+	overflow-x:scroll; 
+}
+.nav {
+	width: 1100px;
+	overflow: scroll;
+	display: block;
+}
+.nav ul {
+	padding: 0;
+	margin: 0;
+}
+.nav ul:before {
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f0c9";
+	margin-right: 10px;
+	color: #fff;
+	font-size: 16px;
+}
+.nav li {
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-smooth: always;
+	display: inline-block;
+}
+.nav li a {
+	margin: 0px 5px;
+}
+.nav li a:hover  {
+	color: #fff;
+}
+.nav li:after {
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "||";
+	color: #fff;
+	margin-left:10px; 
+}
+.nav li:last-child:after {
+	content: ""; 
+}
+.centered {
+	text-align: center;
+}
+.logo {
+	margin:10px 10px 50px 10px; 
+}
+.logo-2 {
+	margin: 10px 10px 10px 10px;
 }
 .type-post h2 {
 	font-size: 26px;
 }
 article.type-post {
-	border: 1px solid #ddd;
-	margin: 0 0 20px 0;
 	padding: 10px 20px;
 }
 .loop-title {
@@ -341,3 +399,25 @@ article.type-post {
 	display: block;
 	margin-bottom: 10px; 
 }
+.social {
+	padding: 0;
+	margin: 0;
+}
+.social li {
+	display: inline-block;
+}
+.social li a {
+	margin: 10px;
+	font-size: 30px;
+}
+.single-post-title {
+	font-size: 30px;
+}
+.side-sidebar {
+	height: 1000px;	
+	overflow-y: scroll;
+}
+
+
+
+

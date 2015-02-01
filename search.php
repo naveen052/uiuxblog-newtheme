@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="col-lg-7">
 	<main role="main">
 		<!-- section -->
 		<section>
@@ -14,6 +14,4 @@
 		<!-- /section -->
 	</main>
 
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+</div>

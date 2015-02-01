@@ -29,40 +29,13 @@
 				
 				<div class="header-content">
 					<!-- logo -->
-					<div class="logo">
+					<div class="logo-2">
 						<a href="<?php echo home_url(); ?>">
 						   <img src="https://s3.amazonaws.com/uiuxblog/uploads/2014/11/uiuxblog.png" alt="Logo">
 						</a>
 					</div>
 					<!-- /logo -->
-					<div class="desc">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex sit optio recusandae. Quos eius tempora labore vitae doloribus vel nemo. Obcaecati rerum, odio amet accusamus voluptates suscipit error ab.
-						</p>
-						<ul class="social">
-							<li>
-								<a href="#">
-									<i class="fa fa-facebook-official"></i>
-								</a>
-							</li>
-							<li>	
-								<a href="#">
-									<i class="fa fa-twitter-square"></i>
-								</a>
-							</li>
-							<li>	
-								<a href="#">
-									<i class="fa fa-google-plus-square"></i>
-								</a>
-							</li>
-							<li>	
-								<a href="#">
-									<i class="fa fa-whatsapp"></i>
-								</a>
-							</li>	
-							
-						</ul>
-					</div>
+					
 					<!-- nav -->
 					<div class="navigation">
 						<nav class="nav" role="navigation">
@@ -70,6 +43,11 @@
 						</nav>
 					</div>
 					<!-- /nav -->
+					<div class="side-sidebar">
+						<?php get_sidebar(); ?>
+						<?php get_footer(); ?>
+
+					</div>
 				</div>
 
 			</header>
