@@ -340,6 +340,9 @@ body::-webkit-scrollbar-thumb {
 	-webkit-overflow-scrolling: touch;
 	width: 41.66666667%;
 }
+.header-content {
+    padding: 5% 10%;
+}
 @media (max-width: 767px) {
     .col-md-7, .col-lg-7, .col-sm-7 {
         padding: 0px;
@@ -356,8 +359,17 @@ body::-webkit-scrollbar-thumb {
         -webkit-overflow-scrolling: touch;
         width: 100%;
     }
+    .header-content {
+        padding: 0% 10%!important;
+    }
     .logo {
         text-align: center;
+        margin: 10px!important;
+    }
+    .nav {
+        left: 10px!important;
+        right: 10px!important;
+        top: 0;
     }
     .desc {
         display: none;
@@ -382,55 +394,23 @@ header p {
 	overflow-x:scroll; 
 }
 .nav {
-	width: 1100px;
-	overflow: scroll;
-    text-align: left;
-	display: block;
-}
-.nav ul {
-	padding: 0;
-	margin: 0;
-}
-.nav ul:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: "\f0c9";
-	margin-right: 10px;
-	color: #fff;
-	font-size: 16px;
-}
-.nav li {
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	font-smooth: always;
-	display: inline-block;
+    position: fixed;
+    margin-top: 20px;
+    left: 35%;
+    opacity: 1;
+    cursor: pointer;
+    z-index: 1; 
 }
 .desc p {
     font-size: 14px;
     margin: 0;
 }
-.nav li a {
-	margin: 0px 5px;
-}
-.nav li a:hover  {
-	color: #fff;
-}
-.nav li:after {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: " * ";
-	color: #fff;
-	margin-left:10px; 
-}
-.nav li:last-child:after {
-	content: ""; 
-}
+
 .centered {
 	text-align: center;
 }
 .logo {
 	margin:10px 10px 50px 10px; 
-}
-.logo-2 {
-	margin: 10px 10px 10px 10px;
 }
 .type-post h2 {
 	font-size: 26px;

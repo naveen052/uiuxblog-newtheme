@@ -47,7 +47,9 @@
 
 				<br class="clear">
 
-				<?php edit_post_link(); ?>
+				
+				<?php get_footer(); ?>
+
 
 			</article>
 			<!-- /article -->
@@ -72,3 +74,4 @@
 		<!-- /section -->
 	</main>
 </div>
+<?php include_once( 'footer_scripts.php' );?>

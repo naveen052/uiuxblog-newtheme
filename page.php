@@ -21,6 +21,8 @@
 
 			</article>
 			<!-- /article -->
+		
+		<?php get_footer(); ?>
 
 		<?php endwhile; ?>
 
@@ -40,3 +42,4 @@
 		<!-- /section -->
 	</main>
 </div>
+<?php include_once( 'footer_scripts.php' );?>

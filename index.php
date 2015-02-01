@@ -16,5 +16,8 @@
 			</section>
 			<!-- /section -->
 		</main>
+
+		<?php get_footer(); ?>
+
 </div>
 <?php include_once( 'footer_scripts.php' );?>

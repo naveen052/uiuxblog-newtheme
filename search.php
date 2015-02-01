@@ -12,6 +12,10 @@
 
 		</section>
 		<!-- /section -->
+
+		<?php get_footer(); ?>
+
 	</main>
 
 </div>
+<?php include_once( 'footer_scripts.php' );?>

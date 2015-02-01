@@ -18,7 +18,7 @@
 			<!-- header -->
 			<header class="header" role="banner">
 				
-				<div class="header-content" style="padding:5% 10%">
+				<div class="header-content">
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
@@ -30,36 +30,9 @@
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex sit optio recusandae. Quos eius tempora labore vitae doloribus vel nemo. Obcaecati rerum, odio amet accusamus voluptates suscipit error ab.
 						</p>
-						<ul class="social">
-							<li>
-								<a href="#">
-									<i class="fa fa-facebook-official"></i>
-								</a>
-							</li>
-							<li>	
-								<a href="#">
-									<i class="fa fa-twitter-square"></i>
-								</a>
-							</li>
-							<li>	
-								<a href="#">
-									<i class="fa fa-google-plus-square"></i>
-								</a>
-							</li>
-							<li>	
-								<a href="#">
-									<i class="fa fa-whatsapp"></i>
-								</a>
-							</li>	
-							
-						</ul>
 					</div>
 					<!-- nav -->
-					<div class="navigation">
-						<nav class="nav" role="navigation">
-							<?php html5blank_nav(); ?>
-						</nav>
-					</div>
+					
 					<!-- /nav -->
 					<div class="side-sidebar">
 						<?php get_sidebar(); ?>
@@ -68,3 +41,9 @@
 			</header>
 			<!-- /header -->
 		</div>
+<div class="btn-group">
+						<nav class="nav" role="navigation">
+  							<a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="fa fa-bars"></span></a>
+							<?php html5blank_nav(); ?>
+						</nav>
+					</div>
