@@ -36,22 +36,16 @@
 
 			<p class="categories"><?php _e( 'Posted in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
 
-			<p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
-
-			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
-		
-            <div class="author-section">
-	            <figure class="author-image">
-	                <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+            <div class="author-section clearfix">
+           		 <figure class="author-image">
+	                <a href="" class="img"><?php echo get_avatar( 'naveensingh.org@gmail.com', 90 ); ?> </a>
 	            </figure>
-	            <section class="author">
-	                <h4><?php the_author_posts_link(); ?></h4>
-	                <p>bio</p>
-	                <p>Read more posts by <?php the_author_posts_link(); ?>.</p>
-	                <div class="author-meta">
-	                    
-	                </div>
-	            </section>
+	           <div class="col-md-12 col-lg-12 col-sm-12">
+	           		<p><strong> About the author : <?php the_author(); ?> </strong></p>
+		            <p>
+		            	<?php the_author_description(); ?> 
+		            </p>
+		        </div>    
             </div>
 			<?php comments_template(); ?>
 		</article>
