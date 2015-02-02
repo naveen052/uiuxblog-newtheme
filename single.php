@@ -31,10 +31,13 @@
 			<!-- /post details -->
 
 			<?php the_content(); // Dynamic Content ?>
+			<small>
+				<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+			</small>
 
-			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
-
-			<p class="categories"><?php _e( 'Posted in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
+			<small>
+				<?php _e( 'Posted in: ', 'html5blank' ); the_category(', '); // Separated by commas ?>
+			</small>
 
             <div class="author-section clearfix">
            		 <figure class="author-image">
