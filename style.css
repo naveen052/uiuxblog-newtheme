@@ -424,7 +424,10 @@ article.type-post {
 article.type-page {
     padding: 10px 20px;
 }
-
+article img {
+    max-width: 100%;
+    height: auto;
+}
 .loop-title {
 	padding: 20px 10px;
 	border-bottom:1px solid #ddd;
